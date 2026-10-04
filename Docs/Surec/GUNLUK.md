@@ -1,3 +1,13 @@
+## 04.10.2026 — Claude Code (bulut) — Yönetim paneli tasarım dili önerisi (yalnız belge)
+
+**Mustafa:** "Yönetim panelinde tasarım dili ve sanatsal yön nasıl olmalı, örnek görüntü üretebilir misin?"
+
+**Yapılan:** `Docs/Tasarim/TASARIM_DILI.md` ("Esnaf defteri" önerisi: takvim yaprağı, kasa fişi, defter sayfası, atlas harita, tente; renkler; dönemle değişen panel) ve örnek ana ekran `Docs/Tasarim/ana_ekran_esnaf_defteri.html` (PNG LFS engeli yüzünden yalnız sohbette). Kod değişmedi.
+
+**Doğrulama:** Yalnız belge ve görsel; derleme gerekmez.
+
+**Sıradaki:** Mustafa beğenirse G-086d menü/HUD temasına (`MarketTheme`, `MarketHudWidget`) uygulanacak öğeler seçilir.
+
 ## 03.10.2026 — Claude (Cowork) — E1: her ülkenin kendi fiyatı (derlenmedi)
 
 **Yapılan:** `MarketPrices.h/.cpp`: ülke parametreli fiyat düzeyi, liste düzeyi, ücret endeksi (aynı yarıyıl kuralı), faiz, `Scaled/WageScaled`; `IsHome`; `ToHome` (`MarketCountry::FxRate` ve gösterim ölçeğiyle; başlangıçta 1); `RealToHome`. Yabancı ekonomi paketten, kampanya tohumu ^ ülke anahtarıyla; yıl başı düzeyleri 2070'e kadar önbellekte. Tek parametreli eski fonksiyonlar "kampanya ülkesi" olarak kaldı. Yeni test dosyası `MarketPricesCountryTests.cpp` (`MirasMarket.Prices.EveryCountryItsOwn`). Test.ps1 161.
