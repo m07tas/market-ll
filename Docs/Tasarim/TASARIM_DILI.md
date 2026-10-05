@@ -1,4 +1,33 @@
-# Yönetim paneli tasarım dili önerisi: "Esnaf defteri"
+# Yönetim paneli tasarım dili
+
+> **05.10.2026, Mustafa:** "Holding patronu gibi hissetsin; dopamin salgılatsın; 'şuraya da bakayım' desin, incelerken zevk alsın." Seçilen yön aşağıdaki **Holding**. Önceki öneriler (Esnaf defteri, Kontrol odası, Masa oyunu) karşılaştırma için altta duruyor.
+
+## Seçilen yön: Holding (`ana_ekran_holding.html`)
+
+Örnek an: 6. yıl, 47 mağaza, 8 il (veriler uydurma). Dosya tarayıcıda açılınca hareketlidir: rakamlar sayarak artar, ışıklar parlar, kamyon hatları akar, haber bandı kayar.
+
+**His:** gece, yüksek kattaki ofis. Koyu lacivert-siyah zemin, şampanya altını (servet, biz, ana eylem), zümrüt yeşili (büyüme, rekor), soluk mavi (rakip), kırmızı yalnız düşüş ve acil için. Cam gibi yarı saydam paneller, yumuşak parıltı.
+
+**Bakınca keyif veren (dopamin) ilkeleri:**
+
+1. **Büyük rakam, canlı rakam.** Şirket değeri ekranın en büyük şeyi, altın renkte; açılışta sayarak artar. Yanında "Bugün +184.250 ₺" nabız gibi atar.
+2. **Harita = imparatorluk.** Gece uydu görüntüsü: her mağaza bir ışık, sahip olunan iller altın parlar, depodan mağazalara kamyon hatları akar, rakipler soluk mavi noktalar. Oyuncu ışıkların çoğalmasını izlemek ister.
+3. **Merak kancaları.** Haritada küçük etiketler: "Bursa rekor +%34", "İstanbul: pay %0,2, fırsat büyük". Her biri tıklanınca ilgili sayfaya gider.
+4. **Neredeyse bitti çubuğu.** "Bir üstteki rakibi geçmene %87" gibi hedefler hep görünür, dolarken parlar.
+5. **Sıralama.** Türkiye ligi: oyuncu kendi satırını altın çerçevede, ▲3 ile görür; bir üstteki rakip hep adıyla yazılı. Sonra dünya ligi.
+6. **Ödüller.** Bu hafta açılan rozetler parlayarak gelir ("YENİ"); kilitli olanın altında "3 kaldı" yazar.
+7. **Kutlama kartı.** Önemli an (yeni mağaza, rekor, kilit) üstte kısa bir kartla kutlanır, sonra kaybolur.
+8. **Haber bandı.** Altta borsa bandı gibi akan şirket haberleri: rekorlar, rakip hamleleri, fiyat değişimleri.
+9. **Kilit açıldı kartı.** "Yurt dışı seni bekliyor" gibi büyük eşikler altın çerçeveli, tek düğmeli kartla gelir.
+10. **Unvan.** Başlıkta "Çınar Holding · Yönetim Kurulu Başkanı". Unvan şirketle büyür: Market sahibi → Genel müdür → Holding başkanı.
+
+**Dikkat:** kötü haber de net görünmeli (Kadıköy −%3 kırmızı); panel yalnız överse güven kaybolur. Parıltı ve animasyon kısa ve seyrek olmalı; her şey parlarsa hiçbir şey parlamaz.
+
+**Tek dükkânda:** aynı dil, daha sade. Harita tek ışıkla başlar, lig satırı "listede değilsin, ilk 50'ye girmene X kaldı" der (M53), unvan "Market sahibi". Işıklar çoğaldıkça ekran zenginleşir.
+
+---
+
+# Önceki öneri: "Esnaf defteri"
 
 Örnek görüntü: `ana_ekran_esnaf_defteri.html` (tarayıcıda 1920×1080 açılır; PNG bulut oturumundan LFS ile gönderilemediği için repoda yok; harita `Config/iller.json`'dan çizildi). Öneridir; Mustafa onaylamadı, oyun kodu değişmedi.
 

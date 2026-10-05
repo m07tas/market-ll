@@ -1,3 +1,13 @@
+## 05.10.2026 — Claude Code (bulut) — Panel yönü seçildi: Holding (yalnız belge)
+
+**Mustafa:** "Holding patronu gibi hissetsin istiyorum ve adama dopamin salgılatan bir tasarım olsun. 'Şuraya da bakayım, inceleyim' desin, incelerken zevk alsın."
+
+**Yapılan:** `Docs/Tasarim/ana_ekran_holding.html` (hareketli örnek; 6. yıl, 47 mağaza, 8 il: gece haritasında mağaza ışıkları, depo ve kamyon hatları, altın şirket değeri sayacı, yıldız mağazalar, Türkiye ligi ve "neredeyse geçtin" çubuğu, rozetler, kutlama kartı, "Yurt dışı kilidi açıldı" kartı, haber bandı). `TASARIM_DILI.md` başına Holding yönü ve 10 ilke. Örnek veriler uydurma. Kod değişmedi; PNG yalnız sohbette.
+
+**Varsayım:** Tek dükkânda da aynı dil (tek ışık, "ilk 50'ye girmene X kaldı"); Mustafa'ya sorulmadı.
+
+**Sıradaki:** Mustafa onaylarsa `MarketTheme` renkleri ve HUD/menü çerçevesi bu yöne çevrilir, harita gece görünümü `MarketMap`'te (ikisi de Claude'un dosyası).
+
 ## 05.10.2026 — Claude Code (bulut) — Yönetim paneli tasarım dili önerisi (yalnız belge)
 
 **Mustafa:** "Yönetim panelinde tasarım dili ve sanatsal yön nasıl olmalı, örnek görüntü üretebilir misin?" Ardından yeni oyun tarzını bildirdi: başlangıcı oyuncu seçer (ülke, şehir, market adı, kendi adı, zorluk); eski hikâye, karakterler, bölümler, final ve "Miras" adı kalktı; aile tek şubeli marketi devreder; bina oyuncunun; borç faizsiz ve süresiz; ilerleme şirket büyüklüğüne bağlı (hipermarket/toptan 8 mağaza + 2 il, yurt dışı 25 mağaza + 5 il); gerçek yıl yerine "1. yıl". **Bu değişiklikler GitHub'da henüz yok** (origin/main hâlâ 2684b27); repodaki AGENTS.md proje haritası ve kurgu belgeleri eski hikâyeyi anlatıyor.
