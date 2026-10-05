@@ -1,12 +1,12 @@
-## 04.10.2026 — Claude Code (bulut) — Yönetim paneli tasarım dili önerisi (yalnız belge)
+## 05.10.2026 — Claude Code (bulut) — Yönetim paneli tasarım dili önerisi (yalnız belge)
 
-**Mustafa:** "Yönetim panelinde tasarım dili ve sanatsal yön nasıl olmalı, örnek görüntü üretebilir misin?"
+**Mustafa:** "Yönetim panelinde tasarım dili ve sanatsal yön nasıl olmalı, örnek görüntü üretebilir misin?" Ardından yeni oyun tarzını bildirdi: başlangıcı oyuncu seçer (ülke, şehir, market adı, kendi adı, zorluk); eski hikâye, karakterler, bölümler, final ve "Miras" adı kalktı; aile tek şubeli marketi devreder; bina oyuncunun; borç faizsiz ve süresiz; ilerleme şirket büyüklüğüne bağlı (hipermarket/toptan 8 mağaza + 2 il, yurt dışı 25 mağaza + 5 il); gerçek yıl yerine "1. yıl". **Bu değişiklikler GitHub'da henüz yok** (origin/main hâlâ 2684b27); repodaki AGENTS.md proje haritası ve kurgu belgeleri eski hikâyeyi anlatıyor.
 
-**Yapılan:** `Docs/Tasarim/TASARIM_DILI.md` ("Esnaf defteri" önerisi: takvim yaprağı, kasa fişi, defter sayfası, atlas harita, tente; renkler; dönemle değişen panel) ve örnek ana ekran `Docs/Tasarim/ana_ekran_esnaf_defteri.html` (PNG LFS engeli yüzünden yalnız sohbette). Kod değişmedi.
+**Yapılan:** `Docs/Tasarim/TASARIM_DILI.md` ("Esnaf defteri": takvim yaprağı, kasa fişi, defter sayfası, atlas harita, tente, sıradaki eşik kartı, şirketle büyüyen panel) ve yeni tarza göre örnek ana ekran `Docs/Tasarim/ana_ekran_esnaf_defteri.html` (örnek oyuncu Eskişehir, "Çınar Market"; PNG LFS engeli yüzünden yalnız sohbette). Kod değişmedi.
 
 **Doğrulama:** Yalnız belge ve görsel; derleme gerekmez.
 
-**Sıradaki:** Mustafa beğenirse G-086d menü/HUD temasına (`MarketTheme`, `MarketHudWidget`) uygulanacak öğeler seçilir.
+**Sıradaki:** Mustafa beğenirse menü/HUD temasına (`MarketTheme`, `MarketHudWidget`) uygulanacak öğeler seçilir. Öneri: başlangıç ekranına market rengi seçimi (tente rengi).
 
 ## 03.10.2026 — Claude (Cowork) — E1: her ülkenin kendi fiyatı (derlenmedi)
 
