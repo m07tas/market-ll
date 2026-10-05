@@ -2,6 +2,8 @@
 
 Örnek görüntü: `ana_ekran_esnaf_defteri.html` (tarayıcıda 1920×1080 açılır; PNG bulut oturumundan LFS ile gönderilemediği için repoda yok; harita `Config/iller.json`'dan çizildi). Öneridir; Mustafa onaylamadı, oyun kodu değişmedi.
 
+Dosyalar: `ana_ekran_esnaf_defteri.html`, `baslangic_esnaf_defteri.html` (başlangıç ekranı), karşılaştırma için `ana_ekran_kontrol_odasi.html` ve `ana_ekran_masa_oyunu.html` (aşağıda).
+
 Örnekteki oyuncu: Ayşe Demir, Türkiye, Eskişehir, "Çınar Market", Normal. Rakamlar örnek.
 
 ## Fikir
@@ -40,3 +42,22 @@ Aynı yerleşim, şirket büyüdükçe değişen dokular (yıl değil, büyükl�
 3. **Yurt dışı (25 mağaza, 5 il) ve dünya:** daha temiz, koyu temalı "kontrol odası"; dünya haritası. Tente ve marka rengi kalır.
 
 Oyuncu ilerlemeyi rakamların yanında ekranın kendisinde de görür.
+
+## Başlangıç ekranı (örnek: `baslangic_esnaf_defteri.html`)
+
+Sol: spiralli "devir teslim" defteri. Adın, marketin adı (tabela ve özel marka), ülke (paketten; şimdilik 4, "+6 yakında"), şehir (küçük harita + kısa karakter: nüfus, rakip, kira, müşteri), zorluk (Rahat/Normal/Zor kartları), market rengi (6 renk). Sağ: seçimlerle canlı değişen dükkân önü (tabela, tente, vitrin), altında devralınan durum (kasa, bina, faizsiz borç, mağaza) ve "Anahtarı al" düğmesi.
+
+## Karşılaştırma: iki farklı yön
+
+Aynı içerik, farklı tarz. Mustafa henüz seçmedi.
+
+| | Esnaf defteri | Kontrol odası (`ana_ekran_kontrol_odasi.html`) | Masa oyunu (`ana_ekran_masa_oyunu.html`) |
+|---|---|---|---|
+| His | Sıcak, nostaljik, küçük işletme | Ciddi yönetim simülasyonu, borsa ekranı | Neşeli, oyuncak gibi, rahat |
+| Zemin | Kâğıt, kareli defter | Koyu yeşil-siyah, ızgara | Mavi masa, kalın siyah çerçeveli kartlar |
+| Bilgi yoğunluğu | Orta | Yüksek (olay akışı, grafik, rakip tablosu, göstergeler) | Düşük (büyük düğme, az rakam) |
+| Güçlü yanı | Oyunun kimliği; tente/tabela marka olur | Büyük şirkette çok veri rahat okunur | Yeni oyuncuya en kolay; uzaktan bile okunur |
+| Zayıf yanı | Şirket büyüyünce "kâğıt" fazla gelebilir | Soğuk; tek dükkânda boş ve iddialı durur | Ciddi ekonomi kararlarında çocuksu kaçabilir |
+| Kime | Hikâyeyi seven, yavaş oynayan | Excel seven, optimizasyoncu | Gündelik oyuncu |
+
+Karma öneri: tek dükkânda "Esnaf defteri" ile başla, şirket büyüdükçe panel "Kontrol odası"na doğru evrilsin (yukarıdaki "Şirketle büyüyen panel").
